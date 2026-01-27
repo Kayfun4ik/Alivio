@@ -21,3 +21,8 @@ li {
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  font-family: latio;
+  font-size: 50px;
+}
