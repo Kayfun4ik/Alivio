@@ -1,0 +1,48 @@
+.hero {
+  background: url("../images/webp/main_3x.webp") no-repeat center/cover;
+  height: 980px;
+  width: 100%;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  justify-content: start;
+  padding-top: 175px;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 65px;
+  color: var(--lightgreen);
+}
+.hero__description {
+  color: var(----font-color);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 157%;
+  margin: 22px 0 44px 0;
+}
+
+@media (max-width: 1200px) {
+  .hero__content {
+    padding-left: 30px;
+  }
+
+  .hero__content > .btn {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    background: url("../images/webp/main_3x.webp") no-repeat 60% 50% / cover;
+  }
+  .hero__title {
+    font-size: 40px;
+  }
+  .hero__description {
+    font-size: 16px;
+  }
+}
