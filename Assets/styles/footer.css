@@ -1,0 +1,18 @@
+.footer {
+  background-color: var(--bg-green);
+  color: var(--bg-white);
+}
+.container {
+}
+.footer__list {
+}
+.footer__list-items {
+  font-weight: 600;
+  font-size: 25px;
+  padding-bottom: 60px;
+}
+
+.footer__logo {
+  max-width: 104px;
+  fill: var(--bg-white);
+}
