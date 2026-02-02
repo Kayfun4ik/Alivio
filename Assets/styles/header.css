@@ -41,6 +41,10 @@
   border-radius: 5px;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+
 .btn__bacground {
   background-color: transparent;
   color: var(--black);
@@ -103,8 +107,3 @@
     gap: 10px;
   }
 }
-/* 450px
-576px
-768px
-992px
-1200px */
