@@ -93,6 +93,9 @@
   .header__nav {
     display: none;
   }
+  .logo {
+    padding: 0 0 0 20px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -101,9 +104,11 @@
     height: 40px;
   }
   .header__wrapper {
-    margin: 10px;
-    height: 120px;
+    display: flex;
+
+    padding: 10px 0;
+    height: 100%;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
   }
 }

@@ -37,6 +37,7 @@
 
 @media (max-width: 576px) {
   .hero {
+    margin-top: 50px;
     background: url("../images/webp/main_3x.webp") no-repeat 60% 50% / cover;
   }
   .hero__title {
